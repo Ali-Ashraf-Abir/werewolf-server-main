@@ -14,7 +14,7 @@ const {Server}=require("socket.io")
 const server=http.createServer(app)
 const io=new Server(server,{
   cors:{
-    oringin: "https://werewolf-server-main-git-main-aliashrafabirs-projects.vercel.app/",
+    oringin: "https://localhost:5000/",
     methods:["GET","POST","PUT","DELETE"]
   }
 })
